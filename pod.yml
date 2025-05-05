@@ -8,3 +8,6 @@ spec:
     containers:
       - name: nginx
         image: nginx:latest
+      - name: ubuntu
+        image: ubuntu:latest
+        command: ["sleep", "infinity"]
